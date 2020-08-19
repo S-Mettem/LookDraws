@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IconAddFromFile.png" />
+    <None Remove="IconCross.png" />
+    <None Remove="IconFolder.png" />
+    <None Remove="IconLens.png" />
+    <None Remove="IconPause.png" />
+    <None Remove="IconRename.png" />
+    <None Remove="MainIcon.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.3.0.3890" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="IconAddFromFile.png" />
+    <Resource Include="IconCross.png" />
+    <Resource Include="IconFolder.png" />
+    <Resource Include="IconLens.png" />
+    <Resource Include="IconPause.png" />
+    <Resource Include="IconRename.png" />
+    <Resource Include="MainIcon.jpg" />
+  </ItemGroup>
+
+</Project>

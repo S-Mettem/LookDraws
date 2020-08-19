@@ -1,0 +1,19 @@
+﻿<Window x:Class="LookDraws.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LookDraws"
+        mc:Ignorable="d"
+        Title="LookDraws" Height="450" Width="800" 
+        ResizeMode="NoResize" Icon="/MainIcon.jpg">
+    <Grid Height="434" VerticalAlignment="Center" Background="#FFC0A4FB">
+        <Grid Height="112" VerticalAlignment="Top" HorizontalAlignment="Right" Width="800"
+              Background="#FF2B1C4D">
+            <Label Content="Look Draws" HorizontalAlignment="Left" Margin="42,0,0,0" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe UI Emoji" FontSize="36" FontStyle="Italic" FontWeight="Bold"/>
+        </Grid>
+        <Button Background="#FFC0A4FB" Content="Начать" HorizontalAlignment="Center" VerticalAlignment="Top" Height="77" Width="192" Margin="0,217,0,0" FontFamily="Yu Gothic UI" FontSize="24" FontStyle="Italic" Foreground="Black" BorderBrush="#FF2E00FF" Click="Button_Click"/>
+        <Label Content="vesion 2.0, автор: Гадалов Илья" HorizontalAlignment="Left" Margin="606,398,0,0" VerticalAlignment="Top" Height="26" Width="184"/>
+
+    </Grid>
+</Window>
